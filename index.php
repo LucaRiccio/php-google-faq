@@ -37,12 +37,12 @@ e la visualizzazione di queste domande e risposte con PHP. -->
     <title>php-google-faq</title>
   </head>
   <body>
+
     <header>
       <div class="header-top">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="Logo Google">
         <h2>Privacy e termini</h2>
       </div>
-
       <div class="header-bottom">
         <p>Introduzione</p>
         <p>Norme</p>
@@ -50,7 +50,6 @@ e la visualizzazione di queste domande e risposte con PHP. -->
         <p>Tecnologie</p>
         <p>Domande frequenti</p>
       </div>
-      <hr>
     </header>
 
     <main>
@@ -63,21 +62,20 @@ e la visualizzazione di queste domande e risposte con PHP. -->
     </main>
 
     <footer>
-
-      <p>Google</p>
-      <p>Tutto su Google</p>
-      <p>Privacy</p>
-      <p>Termini</p>
-
-      <span id="text"><i class="fas fa-comment-alt"></i></span>
-
-
-      <select id="lang" name="">
-        <option value="Italiano">Italiano</option>
-        <option value="Inglese">Inglese</option>
-        <option value="Spagnolo">Spagnolo</option>
-      </select>
-
+      <div class="footer-left">
+        <p>Google</p>
+        <p>Tutto su Google</p>
+        <p>Privacy</p>
+        <p>Termini</p>
+      </div>
+      <div class="footer-right">
+        <span id="text"><i class="fas fa-comment-alt"></i></span>
+        <select id="lang" name="">
+          <option value="Italiano">Italiano</option>
+          <option value="Inglese">Inglese</option>
+          <option value="Spagnolo">Spagnolo</option>
+        </select>
+      </div>
     </footer>
 
   </body>
