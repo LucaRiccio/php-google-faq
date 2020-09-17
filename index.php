@@ -33,6 +33,7 @@ e la visualizzazione di queste domande e risposte con PHP. -->
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <title>php-google-faq</title>
   </head>
   <body>
@@ -62,6 +63,20 @@ e la visualizzazione di queste domande e risposte con PHP. -->
     </main>
 
     <footer>
+
+      <p>Google</p>
+      <p>Tutto su Google</p>
+      <p>Privacy</p>
+      <p>Termini</p>
+
+      <span id="text"><i class="fas fa-comment-alt"></i></span>
+
+
+      <select id="lang" name="">
+        <option value="Italiano">Italiano</option>
+        <option value="Inglese">Inglese</option>
+        <option value="Spagnolo">Spagnolo</option>
+      </select>
 
     </footer>
 
